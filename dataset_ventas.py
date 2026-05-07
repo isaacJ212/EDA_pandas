@@ -31,9 +31,3 @@ df = pd.DataFrame({
     'metodo_pago': [random.choice(metodos_pago) for _ in range(n)]
 })
 
-
-# obtener información estrctural del dataframe : dimenciones, nombres de columnas, tipos de datos.
-
-print("Dimensiones del DataFrame:", df.shape)
-print("\nNombres de columnas:", df.columns.tolist())
-print("\nTipos de datos:\n", df.dtypes)
